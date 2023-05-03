@@ -7,6 +7,20 @@
 #include <ESP8266WebServer.h>
 #include <ESP8266mDNS.h>
 
+
+// we also make use of MAX7219 8x8 LED matri
+// import the library for the LED matrix
+#include <MD_MAX72xx.h>
+#include <MD_Parola.h>
+#include <SPI.h>
+
+// define the number of devices we have in the chain and the hardware interface
+#define HARDWARE_TYPE MD_MAX72XX::FC16_HW
+#define MAX_DEVICES 2
+
+// set up the LED matrix
+MD_Parola myDisplay = MD_Parola(HARDWARE_TYPE, 5, 4, 3, MAX_DEVICES);
+
 // This needs to be an existing endpoint (smartphone hotspot)
 const char* ssid = "Zenray";
 const char* password = "zenray123";
@@ -21,14 +35,26 @@ void handleNotFound(){
   server.send(404, "text/plain", "404: Not found");
 }
 
-bool runProgram(name){
-  // we need to stream the program to the device and then run it
+bool RUNNING = false;
+void sendData(data) {
 
+  while (RUNNING) {
+    // go sending the data to the device
+    // for now flash the display
+    myDisplay.displayText("Hello", PA_CENTER, 0, 0, PA_PRINT, PA_NO_EFFECT);
+    myDisplay.displayAnimate();
+    delay(1000);
+  }
+
+}
+
+bool runProgram(name){
+  RUNNING = true;
 }
 
 bool stopProgram(){
   // we need to stop the program that is currently running
-
+  RUNNING = false;
 }
 
 
