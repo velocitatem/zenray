@@ -51,20 +51,6 @@ int getRandomInt(int min, int max) {
 // the first element is the x coordinate, the second is the y coordinate
 // X[0-7] Y[0-16]
 
-int AMUSEMENT[50][2] = {
-  {1,1}, {1,2}, {1,3}, {1,4}, {1,5},
-  {2,1}, {2,2}, {2,3}, {2,4}, {2,5},
-  {3,1}, {3,2}, {3,3}, {3,4}, {3,5},
-  {4,1}, {4,2}, {4,3}, {4,4}, {4,5},
-  {5,1}, {5,2}, {5,3}, {5,4}, {5,5},
-  {1,1}, {2,1}, {3,1}, {4,1}, {5,1},
-  {1,2}, {2,2}, {3,2}, {4,2}, {5,2},
-  {1,3}, {2,3}, {3,3}, {4,3}, {5,3},
-  {1,4}, {2,4}, {3,4}, {4,4}, {5,4},
-  {1,5}, {2,5}, {3,5}, {4,5}, {5,5}
-};
-
-
 // create a class for a program
 class Program {
  public:
@@ -259,3 +245,10 @@ void loop() {
   }
 
 }
+
+/*
+  ENDPOINTS:
+  - HTTP GET /runProgram/1
+  - HTTP GET /runProgram/2
+  - HTTP GET /stopProgram
+ */
