@@ -67,9 +67,7 @@ Flickering light therapy works faster than antidepressants to cure symptoms of d
 [^1^]: [Hamblin M. R. (2016). Shining light on the head: Photobiomodulation for brain disorders. BBA clinical, 6, 113–124](https://doi.org/10.1016/j.bbacli.2016.09.002).
 [^2^]: [Hennessy, M., & Hamblin, M. R. (2017). Photobiomodulation and the brain: a new paradigm. Journal of optics (2010), 19(1), 013003](https://doi.org/10.1088/2040-8986/19/1/013003).
 [^3^]: [Kim, S., Kim, S., Khalid, A., Jeong, Y., Jeong, B., Lee, S. T., Jung, K. H., Chu, K., Lee, S. K., & Jeon, D. (2016). Rhythmical Photic Stimulation at Alpha Frequencies Produces Antidepressant-Like Effects in a Mouse Model of Depression. PloS one, 11(1), e0145374](https://doi.org/10.1371/journal.pone.0145374).
-[^4^]: [Bartossek, M. T., Kemmerer, J., & Schmidt, T. T. (2021). Altered
-
- states phenomena induced by visual flicker light stimulation. PloS one, 16(7), e0253779](https://doi.org/10.1371/journal.pone.0253779).
+[^4^]: [Bartossek, M. T., Kemmerer, J., & Schmidt, T. T. (2021). Altered states phenomena induced by visual flicker light stimulation. PloS one, 16(7), e0253779](https://doi.org/10.1371/journal.pone.0253779).
 [^5^]: [Braboszcz, C., Cahn, B. R., Levy, J., Fernandez, M., & Delorme, A. (2017). Increased Gamma Brainwave Amplitude Compared to Control in Three Different Meditation Traditions. PloS one, 12(1), e0170647](https://doi.org/10.1371/journal.pone.0170647).
 
 ## Our program - novel combination of red flickering light therapy
