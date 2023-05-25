@@ -38,6 +38,9 @@ The project consists of two main circuits, one to control the MAX72xx and one to
 
 ![led](./circuit_led.svg)
 
+![image](https://github.com/velocitatem/zenray/assets/60182044/dd9fd5e1-eb9d-4f45-adbc-9ecf2432f154)
+
+
 ### Inputs and Outputs
 For the display, the inputs are a bit more abstract:
 
